@@ -117,6 +117,11 @@ jobs:
           CONFIG_PACKAGE_luci-app-dockerman=y
           CONFIG_PACKAGE_openssh-sftp-server=y
           CONFIG_PACKAGE_luci-app-transmission=y
+          CONFIG_PACKAGE_luci-app-syncdial=y
+          CONFIG_PACKAGE_luci-app-upnp=y
+          CONFIG_PACKAGE_luci-app-frps=y
+          CONFIG_PACKAGE_luci-app-vsftpd=y
+          CONFIG_PACKAGE_luci-app-aria2=y
           # CONFIG_PACKAGE_luci-app-cifsd is not set
           # CONFIG_PACKAGE_luci-app-netdata is not set
           # CONFIG_PACKAGE_luci-app-statistics is not set
@@ -127,7 +132,6 @@ jobs:
           # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           # CONFIG_PACKAGE_luci-app-ramfree is not set
-          # CONFIG_PACKAGE_luci-app-vsftpd is not set
           # CONFIG_PACKAGE_luci-app-xlnetacc is not set
           # CONFIG_PACKAGE_luci-app-zerotier is not set
           EOF
