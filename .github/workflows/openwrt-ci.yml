@@ -111,7 +111,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y
           CONFIG_PACKAGE_luci-app-passwall_INCLUDE_simple-obfs=y
           CONFIG_PACKAGE_luci-app-passwall_INCLUDE_v2ray-plugin=y
-n         CONFIG_PACKAGE_luci-app-baidupcs-web=y
+          CONFIG_PACKAGE_luci-app-baidupcs-web=y
           CONFIG_PACKAGE_nginx=y
           CONFIG_PACKAGE_luci-app-samba=y
           CONFIG_PACKAGE_luci-app-docker=y
