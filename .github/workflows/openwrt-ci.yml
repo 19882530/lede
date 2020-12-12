@@ -107,14 +107,14 @@ jobs:
           CONFIG_PACKAGE_luci-app-ddns=y
           CONFIG_PACKAGE_ddns-scripts_aliyun=y
           CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
-          CONFIG_PACKAGE_luci-app-aria2=y
+          CONFIG_PACKAGE_luci-app-aria2c
           CONFIG_PACKAGE_nginx=y
           CONFIG_PACKAGE_luci-app-samba=y
           CONFIG_PACKAGE_luci-app-docker=y
           CONFIG_PACKAGE_luci-app-dockerman=y
           CONFIG_PACKAGE_openssh-sftp-server=y
-          CONFIG_PACKAGE_luci-app-transmission=y
-          # CONFIG_PACKAGE_luci-app-syncdial not set
+          # CONFIG_PACKAGE_luci-app-transmission is not set
+          # CONFIG_PACKAGE_luci-app-syncdial is not set
           CONFIG_PACKAGE_luci-app-upnp=y
           # CONFIG_PACKAGE_luci-app-frps is not set
           CONFIG_PACKAGE_luci-app-vsftpd=y
@@ -123,7 +123,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-statistics is not set
           # CONFIG_PACKAGE_luci-app-vnstat is not set
           # CONFIG_PACKAGE_luci-app-amule is not set
-          # CONFIG_PACKAGE_luci-app-qbittorrent is not set
+          CONFIG_PACKAGE_luci-app-qbittorrent=y
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
           # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           # CONFIG_PACKAGE_luci-app-nlbwmon is not set
